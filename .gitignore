@@ -1,0 +1,44 @@
+# Hidden files / folders (common)
+# OS
+.DS_Store
+.Trashes
+.Spotlight-V100
+.AppleDouble
+.LSOverride
+Desktop.ini
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+.secrets
+.secrets.*
+
+# Hidden config folders
+.config/
+.local/
+.cache/
+
+# Editor/IDE hidden folders
+.vscode/
+.idea/
+.*-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter
+.ipynb_checkpoints
+
+# Python / test caches
+.pytest_cache/
+__pycache__/
+
+# Misc hidden temporary files
+.*.swp
+.*.swo
+.*.~lock.*
+*.tmp
+*.bak
+
+# model checkpoints folder
+models/
